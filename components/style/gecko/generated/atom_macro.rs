@@ -1562,6 +1562,8 @@ cfg_if! {
             pub static nsGkAtoms_onchargingtimechange: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms10oncheckingE"]
             pub static nsGkAtoms_onchecking: *mut nsIAtom;
+            #[link_name = "_ZN9nsGkAtoms21onCheckboxStateChangeE"]
+            pub static nsGkAtoms_onCheckboxStateChange: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms7onclickE"]
             pub static nsGkAtoms_onclick: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms16onclirmodechangeE"]
@@ -1898,6 +1900,8 @@ cfg_if! {
             pub static nsGkAtoms_onptychange: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms18onradiostatechangeE"]
             pub static nsGkAtoms_onradiostatechange: *mut nsIAtom;
+            #[link_name = "_ZN9nsGkAtoms18onRadioStateChangeE"]
+            pub static nsGkAtoms_onRadioStateChange: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms13onrdsdisabledE"]
             pub static nsGkAtoms_onrdsdisabled: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms12onrdsenabledE"]
@@ -4326,6 +4330,8 @@ cfg_if! {
             pub static nsGkAtoms_scrollbar_thumb_proportional: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms18overlay_scrollbarsE"]
             pub static nsGkAtoms_overlay_scrollbars: *mut nsIAtom;
+            #[link_name = "_ZN9nsGkAtoms28windows_accent_color_appliesE"]
+            pub static nsGkAtoms_windows_accent_color_applies: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms21windows_default_themeE"]
             pub static nsGkAtoms_windows_default_theme: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms18mac_graphite_themeE"]
@@ -4376,6 +4382,8 @@ cfg_if! {
             pub static nsGkAtoms__moz_scrollbar_thumb_proportional: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms23_moz_overlay_scrollbarsE"]
             pub static nsGkAtoms__moz_overlay_scrollbars: *mut nsIAtom;
+            #[link_name = "_ZN9nsGkAtoms33_moz_windows_accent_color_appliesE"]
+            pub static nsGkAtoms__moz_windows_accent_color_applies: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms26_moz_windows_default_themeE"]
             pub static nsGkAtoms__moz_windows_default_theme: *mut nsIAtom;
             #[link_name = "_ZN9nsGkAtoms23_moz_mac_graphite_themeE"]
@@ -6675,6 +6683,8 @@ cfg_if! {
             pub static nsGkAtoms_onchargingtimechange: *mut nsIAtom;
             #[link_name = "?onchecking@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms_onchecking: *mut nsIAtom;
+            #[link_name = "?onCheckboxStateChange@nsGkAtoms@@2PEAVnsIAtom@@EA"]
+            pub static nsGkAtoms_onCheckboxStateChange: *mut nsIAtom;
             #[link_name = "?onclick@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms_onclick: *mut nsIAtom;
             #[link_name = "?onclirmodechange@nsGkAtoms@@2PEAVnsIAtom@@EA"]
@@ -7011,6 +7021,8 @@ cfg_if! {
             pub static nsGkAtoms_onptychange: *mut nsIAtom;
             #[link_name = "?onradiostatechange@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms_onradiostatechange: *mut nsIAtom;
+            #[link_name = "?onRadioStateChange@nsGkAtoms@@2PEAVnsIAtom@@EA"]
+            pub static nsGkAtoms_onRadioStateChange: *mut nsIAtom;
             #[link_name = "?onrdsdisabled@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms_onrdsdisabled: *mut nsIAtom;
             #[link_name = "?onrdsenabled@nsGkAtoms@@2PEAVnsIAtom@@EA"]
@@ -9439,6 +9451,8 @@ cfg_if! {
             pub static nsGkAtoms_scrollbar_thumb_proportional: *mut nsIAtom;
             #[link_name = "?overlay_scrollbars@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms_overlay_scrollbars: *mut nsIAtom;
+            #[link_name = "?windows_accent_color_applies@nsGkAtoms@@2PEAVnsIAtom@@EA"]
+            pub static nsGkAtoms_windows_accent_color_applies: *mut nsIAtom;
             #[link_name = "?windows_default_theme@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms_windows_default_theme: *mut nsIAtom;
             #[link_name = "?mac_graphite_theme@nsGkAtoms@@2PEAVnsIAtom@@EA"]
@@ -9489,6 +9503,8 @@ cfg_if! {
             pub static nsGkAtoms__moz_scrollbar_thumb_proportional: *mut nsIAtom;
             #[link_name = "?_moz_overlay_scrollbars@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms__moz_overlay_scrollbars: *mut nsIAtom;
+            #[link_name = "?_moz_windows_accent_color_applies@nsGkAtoms@@2PEAVnsIAtom@@EA"]
+            pub static nsGkAtoms__moz_windows_accent_color_applies: *mut nsIAtom;
             #[link_name = "?_moz_windows_default_theme@nsGkAtoms@@2PEAVnsIAtom@@EA"]
             pub static nsGkAtoms__moz_windows_default_theme: *mut nsIAtom;
             #[link_name = "?_moz_mac_graphite_theme@nsGkAtoms@@2PEAVnsIAtom@@EA"]
@@ -11788,6 +11804,8 @@ cfg_if! {
             pub static nsGkAtoms_onchargingtimechange: *mut nsIAtom;
             #[link_name = "\x01?onchecking@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms_onchecking: *mut nsIAtom;
+            #[link_name = "\x01?onCheckboxStateChange@nsGkAtoms@@2PAVnsIAtom@@A"]
+            pub static nsGkAtoms_onCheckboxStateChange: *mut nsIAtom;
             #[link_name = "\x01?onclick@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms_onclick: *mut nsIAtom;
             #[link_name = "\x01?onclirmodechange@nsGkAtoms@@2PAVnsIAtom@@A"]
@@ -12124,6 +12142,8 @@ cfg_if! {
             pub static nsGkAtoms_onptychange: *mut nsIAtom;
             #[link_name = "\x01?onradiostatechange@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms_onradiostatechange: *mut nsIAtom;
+            #[link_name = "\x01?onRadioStateChange@nsGkAtoms@@2PAVnsIAtom@@A"]
+            pub static nsGkAtoms_onRadioStateChange: *mut nsIAtom;
             #[link_name = "\x01?onrdsdisabled@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms_onrdsdisabled: *mut nsIAtom;
             #[link_name = "\x01?onrdsenabled@nsGkAtoms@@2PAVnsIAtom@@A"]
@@ -14552,6 +14572,8 @@ cfg_if! {
             pub static nsGkAtoms_scrollbar_thumb_proportional: *mut nsIAtom;
             #[link_name = "\x01?overlay_scrollbars@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms_overlay_scrollbars: *mut nsIAtom;
+            #[link_name = "\x01?windows_accent_color_applies@nsGkAtoms@@2PAVnsIAtom@@A"]
+            pub static nsGkAtoms_windows_accent_color_applies: *mut nsIAtom;
             #[link_name = "\x01?windows_default_theme@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms_windows_default_theme: *mut nsIAtom;
             #[link_name = "\x01?mac_graphite_theme@nsGkAtoms@@2PAVnsIAtom@@A"]
@@ -14602,6 +14624,8 @@ cfg_if! {
             pub static nsGkAtoms__moz_scrollbar_thumb_proportional: *mut nsIAtom;
             #[link_name = "\x01?_moz_overlay_scrollbars@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms__moz_overlay_scrollbars: *mut nsIAtom;
+            #[link_name = "\x01?_moz_windows_accent_color_applies@nsGkAtoms@@2PAVnsIAtom@@A"]
+            pub static nsGkAtoms__moz_windows_accent_color_applies: *mut nsIAtom;
             #[link_name = "\x01?_moz_windows_default_theme@nsGkAtoms@@2PAVnsIAtom@@A"]
             pub static nsGkAtoms__moz_windows_default_theme: *mut nsIAtom;
             #[link_name = "\x01?_moz_mac_graphite_theme@nsGkAtoms@@2PAVnsIAtom@@A"]
@@ -16904,6 +16928,8 @@ macro_rules! atom {
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onchargingtimechange as *mut _) } };
 ("onchecking") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onchecking as *mut _) } };
+("onCheckboxStateChange") =>
+  { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onCheckboxStateChange as *mut _) } };
 ("onclick") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onclick as *mut _) } };
 ("onclirmodechange") =>
@@ -17240,6 +17266,8 @@ macro_rules! atom {
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onptychange as *mut _) } };
 ("onradiostatechange") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onradiostatechange as *mut _) } };
+("onRadioStateChange") =>
+  { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onRadioStateChange as *mut _) } };
 ("onrdsdisabled") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_onrdsdisabled as *mut _) } };
 ("onrdsenabled") =>
@@ -19668,6 +19696,8 @@ macro_rules! atom {
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_scrollbar_thumb_proportional as *mut _) } };
 ("overlay-scrollbars") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_overlay_scrollbars as *mut _) } };
+("windows-accent-color-applies") =>
+  { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_windows_accent_color_applies as *mut _) } };
 ("windows-default-theme") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms_windows_default_theme as *mut _) } };
 ("mac-graphite-theme") =>
@@ -19718,6 +19748,8 @@ macro_rules! atom {
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms__moz_scrollbar_thumb_proportional as *mut _) } };
 ("-moz-overlay-scrollbars") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms__moz_overlay_scrollbars as *mut _) } };
+("-moz-windows-accent-color-applies") =>
+  { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms__moz_windows_accent_color_applies as *mut _) } };
 ("-moz-windows-default-theme") =>
   { unsafe { $crate::string_cache::atom_macro::atom_from_static($crate::string_cache::atom_macro::nsGkAtoms__moz_windows_default_theme as *mut _) } };
 ("-moz-mac-graphite-theme") =>
